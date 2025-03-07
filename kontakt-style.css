@@ -1,0 +1,132 @@
+*{
+    font-family:lato,Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(190, 190, 190);
+  
+   
+  
+   
+}
+h1,h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+   
+}
+
+ 
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: 2.5rem;
+
+}
+p{
+    font-size: 1.8rem;
+}
+main{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+
+}
+
+.container{
+margin:  auto;
+max-width: 1250px;
+justify-content: space-around;
+font-size: 2rem;
+
+}
+
+.container:hover{
+ background-color:rgba(99, 199, 166, 0.972);
+ font-size:2.3rem ;
+ color: #2955cd;
+ 
+ 
+}
+header{
+ background-color: rgb(57, 59, 59);
+ 
+}
+
+#mySidenav a{
+    position: absolute;
+    left: -80px;
+    transition:0.3s ;
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    font-size:15px ;
+    color: whitesmoke;
+    border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover{
+   left: 0;
+}
+
+#hem {
+    top: 20px;
+    background-color: #04AA6D;
+  
+  }
+  #Färdigheter {
+    top: 65px;
+    background-color: #2196F3;
+   
+ 
+  }
+  
+  #projekt {
+    top: 110px;
+    background-color: #f44336;
+   
+  }
+  
+  #Kontakt {
+    top: 150px;
+    background-color: #555;
+   
+    
+  }
+  
+  .lista{
+    font-size: 2rem;
+      color: rgb(22, 22, 173);
+   
+  
+  }
+
+footer{
+   padding: 2rem;
+    text-align:center;
+    background-color:rgb(10, 182, 188);
+    
+  
+  
+}
+a{
+    text-decoration: dotted;
+}
+
+
+.image{
+    display: flex;
+    justify-content:flex-end;
+    margin: auto;
+    border-radius:50%;
+ 
+}
+
+
+
+
+

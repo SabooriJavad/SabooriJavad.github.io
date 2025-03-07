@@ -1,0 +1,107 @@
+*{
+    font-family:lato,Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+   background-color:rgb(238, 226, 226);
+   
+}
+h1,h2,h3,h4,h5{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: 2.5rem;
+
+}
+p{
+    font-size: 1.8rem;
+}
+main{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+
+}
+header{
+  background-color: rgba(60, 137, 182, 0.815);
+  
+ }
+ header:hover{
+   
+     color:rgb(26, 82, 119);
+     background-color:rgb(12, 14, 12);
+ 
+ } 
+
+.container{
+margin: 0 auto;
+max-width: 1250px;
+
+}
+
+.container:hover{
+ background-color:rgb(54, 46, 46);
+ font-size:2.1rem ;
+ 
+ 
+}
+
+
+footer{
+   padding: 2rem;
+    text-align:center;
+    background-color:rgb(10, 182, 188)
+    
+  
+}
+a{
+    text-decoration: dotted;
+}
+
+img{
+max-width: 25%;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 12px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #hem {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #Färdigheter {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projekt {
+    top: 140px;
+    background-color: #e91607;
+  }
+  
+  #kontakt {
+    top: 200px;
+    background-color: #555
+  }
