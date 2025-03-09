@@ -7,71 +7,21 @@
 body{
     flex-direction: column;
     min-height: 100vh;
-    display: flex;
+    display: grid;
   
    
 }
-h1,h2,h3,h4{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2.5rem;
-}
-h1{
-    font-size: 4rem;
-    text-align: center;
-    padding: 2.5rem;
-
-}
-h2{
-    margin-left: 2rem;
-}
-p{
-    font-size: 1.8rem;
-}
-main{
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-
-}
-
-.container{
-margin: 0 auto;
-max-width: 1250px;
-
-
-}
-
-.container:hover{
- background-color:rgba(56, 90, 79, 0.04);
- font-size:2.3rem ;
- 
- 
-}
 header{
- background-color: rgb(10, 186, 186);
- 
-}
-header:hover{
- 
-    color:rgb(10, 186, 192);
-    background-color:rgb(89, 83, 73);
+    background-color: rgb(10, 186, 186);
+    
+   }
+   header:hover{
+    
+       color:rgb(10, 186, 192);
+       background-color:rgb(89, 83, 73);
+   
+   } 
 
-} 
-
-footer{
-   padding: 2rem;
-    text-align:center;
-    background-color:rgb(10, 182, 188)
-
-  
-}
-a{
-    text-decoration: dotted;
-}
-
-img{
-max-width: 25%;
-}
 #mySidenav a{
     position: absolute;
     left: -80px;
@@ -105,6 +55,95 @@ max-width: 25%;
     top: 150px;
     background-color: #555
   }
+h1,h2,h3,h4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: 2.5rem;
+
+}
+h2{
+    margin-left: 2rem;
+}
+p{
+    font-size: 1.8rem;
+}
+main{
+    display: contents;
+    flex-grow: 1;
+    align-items: center;
+
+}
+
+.container-1{
+margin: 0 auto;
+max-width: 1250px;
+justify-content: space-around;
+  
+
+}
+
+.text{
+margin: auto;
+max-width: 1259pxx;
+
+} 
+.text:hover{
+  padding: 2rem;
+  display: table-row;
+
+
+  
+}
+
+
+footer{
+   padding: 2rem;
+    text-align:center;
+    background-color:rgb(10, 182, 188)
+
+  
+}
+@media (min-width:460px){
+    .p{
+     font-size: 0.2rem;
+     color: black;
+    }
+    
+  }
+  @media (max-width:460px){
+    .container-1{ 
+    color: black;
+   
+   }
+  
+    
+  }
+  @media (max-width:460px){
+   
+    body{
+      background-image: none;
+     background-color: #949393;
+     color: #555;
+    }
+   
+    
+  }
+  @media (max-width:460px){
+    h1,h2,h3,h4{
+  font-size: 1rem;
+      
+    }
+  p{
+    font-size: 0.8rem;
+    margin: auto;
+ }
+  }
+
+
   
 
 

@@ -7,7 +7,7 @@
 body{
     flex-direction: column;
     min-height: 100vh;
-    display: flex;
+    display:grid;
    background-color:rgba(237, 237, 237, 0.742);
    background:url(image/IMG_4038.jpeg);
    
@@ -18,14 +18,13 @@ h1,h2,h3,h4,h5{
     margin: 0.7rem;
 }
 h1{
-    font-size: 8rem;
+    font-size: 5rem;
     text-align: center;
     padding: 1rem;
-   
-
 }
 p{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+
 }
 b{
   color: rgb(20, 20, 155);
@@ -38,14 +37,14 @@ main{
 }
 header{
   background-color: rgb(97, 105, 143);
-  }
+  padding:1;  }
   header:hover{
      
      color:rgb(37, 247, 5);
       background-color:rgba(2, 47, 170, 0.572);
   
   } 
-.container{
+.container-1{
   margin: 0 auto;
 max-width: 1250px;
 color: rgba(0, 255, 136, 0.63);
@@ -57,18 +56,13 @@ color: rgba(0, 255, 136, 0.63);
   background-color:rgba(56, 90, 79, 0.04);
   font-size:2.3rem ;
  transition: s;
- padding: 2rem;
-
-  
   
  }
 
 footer{
-   padding: 2rem;
+   padding: 1rem;
     text-align:center;
-    background-color:rgb(10, 182, 188)
-    
-  
+    background-color:rgb(176, 189, 189)  
 }
 a{
     text-decoration: dotted;
@@ -116,3 +110,37 @@ max-width: 25%;
     top: 150px;
     background-color: #555
   }
+
+@media (min-width:460px){
+  .p{
+   font-size: 0.2rem;
+   color: black;
+  }
+  
+}
+@media (max-width:460px){
+  .container-1{ 
+  color: black;
+ 
+ }
+
+  
+}
+@media (max-width:460px){
+ 
+  body{
+    background-image: none;
+   background-color: #949393;
+   color: #555;
+  }
+ 
+  
+}
+@media (max-width:460px){
+  h2,h3,h4{
+font-size: 2rem;
+    
+  }
+
+}
+

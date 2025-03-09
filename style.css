@@ -48,7 +48,7 @@ max-width: 1250px;
 }
 
 .container:hover{
- background-color:rgb(54, 46, 46);
+ background-color:rgb(146, 144, 144);
  font-size:2.1rem ;
  
  
@@ -92,16 +92,16 @@ max-width: 25%;
   }
   
   #Färdigheter {
-    top: 80px;
+    top: 65px;
     background-color: #2196F3;
   }
   
   #projekt {
-    top: 140px;
+    top: 110px;
     background-color: #e91607;
   }
   
   #kontakt {
-    top: 200px;
+    top: 155px;
     background-color: #555
   }
