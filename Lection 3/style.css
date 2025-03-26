@@ -1,0 +1,30 @@
+body{
+  
+ font-size: medium;
+    padding:20px auto;
+}
+h1{
+    color:darkblue;
+}
+input,button{
+    font-size: 15px;
+    color: blue;
+}
+
+#result.green{
+    
+    color:rgb(7, 234, 49);
+}
+#result.red{
+    color: red;
+}
+#result.blue{
+    color: blue;
+}
+
+.content,.img{
+    width:100%
+}
+img{
+    max-width:100%
+}
