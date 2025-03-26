@@ -1,0 +1,66 @@
+
+.boxs{
+    display:flex;
+   border: 5px solid blue;
+   height:95vh;
+   align-items: center;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   column-gap: 1em;
+   row-gap: 3em;
+}
+ 
+
+.box{
+    width: 200px;
+    height: 200px;
+    font-family: 10em;
+    text-decoration: chartreuse;
+    font-size: 9em;
+    text-align: center;
+    border-radius: 20px;
+}
+#box1{
+    background-color: darkseagreen;
+   
+}
+#box2{
+    background-color: darkgrey;
+    
+}
+#box3{
+    background-color:burlywood ;
+}
+#box4{
+    background-color: aqua;
+}
+
+#box5{
+    background-color: blueviolet;
+}
+
+#box6{
+    background-color: chartreuse;
+}
+#box7{
+    background-color: darkolivegreen;
+}
+#box8{
+    background-color: darkcyan;
+}
+
+.cirkel{
+    display:flex;
+    border-radius: 100%;
+    font-size: 10em;
+  text-align: center;
+    width: 35vh;
+    height:35vh;
+    margin:5px;
+    border-bottom-color: aqua;
+    border-left-color: rgb(255, 9, 10);
+    border-right-color: chartreuse;
+}
+#cirkel{
+    background-color: darkgreen;
+}
