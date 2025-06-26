@@ -121,6 +121,7 @@ max-width: 25%;
 @media (max-width:460px){
   .container-1{ 
   color: black;
+      margin:0.5;
  
  }
 
